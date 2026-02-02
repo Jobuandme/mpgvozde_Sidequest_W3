@@ -2,17 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sketch</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="libraries/p5.min.js"></script>
-    <script src="libraries/p5.sound.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1e3a3a" />
+    <title>GBDA302 — Week 3 Demo</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <script src="sketch.js"></script>
+    <header class="site-header">
+      <div class="wrap">
+        <h1 class="title">The ION Problem</h1>
+        <p class="subtitle">Michael Gvozdek - Sidequest Week 3</p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="card">
+        <div class="canvas-frame">
+          <!-- p5 canvas mounts here -->
+        </div>
+        <p class="hint">
+          Tip: Use your mouse to make choices with the buttons.
+        </p>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.min.js"></script>
+    <script src="start.js"></script>
+    <script src="instructions.js"></script>
+    <script src="DecisionOneA.js"></script>
+    <script src="DecisionOneB.js"></script>
+    <script src="EndingA.js"></script>
+    <script src="EndingB.js"></script>
+    <script src="game.js"></script>
+    <script src="win.js"></script>
+    <script src="lose.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -1,7 +1,8 @@
-function setup() {
-  createCanvas(400, 400);
-}
+/*
+  This file is intentionally empty.
 
-function draw() {
-  background(220);
-}
+  setup() and draw() live in main.js.
+  Other files define screen-specific draw and input functions.
+
+  Do NOT add setup() or draw() here.
+*/
